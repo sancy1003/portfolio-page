@@ -376,6 +376,94 @@ button {
   padding: 3px 0;
 }
 
+.portfolio-back-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000009f;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.mobile-phone-img {
+  height: 70vh;
+  margin: 20px 50px;
+  box-shadow: 0 10px 10px #00000044;
+}
+
+.portfolio-info-mobile-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-info {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.portfolio-info-title {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.portfolio-info-description {
+  font-size: 1.2rem;
+  word-break: keep-all;
+  margin-bottom: 50px;
+}
+
+.img-num {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.img-num-item {
+  background-color:white;
+  width: 15px;
+  height: 15px;
+  margin: 0 20px;
+  border-radius: 100%;
+}
+
+.btn-img-left {
+  font-size: 2rem;
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-img-right {
+  font-size: 2rem;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.img-num-item.active {
+  background-color:rgb(94, 209, 184);
+  
+}
+
+.btn-portfolio-info-close {
+  color: white;
+  border-radius: 5px;
+  background-color: #1f2425ab;
+  width: 70px;
+  height: 40px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 850px) {
   .main-text-box {
     width: 80%;

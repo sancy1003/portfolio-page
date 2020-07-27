@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="/style.css" />
     <script defer src="/chantstrap.js"></script>
+    <script defer src="/portfolio.js"></script>
   </head>
   <body>
     <!-- Header part Start -->
@@ -130,7 +131,7 @@
         <button class="btn-portfolio btn-portfolio-app"># App</button>
         <button class="btn-portfolio btn-portfolio-project"># Project</button>
       </div>
-      <div class="portfolio-container">
+      <div class="portfolio-container" onclick="clickPortfolio(data[0])">
         <div class="portfolio-item pf-Web">
           <img
             src="/img/TodayMemoGI.jpg"
@@ -197,5 +198,27 @@
       <span class="email">kipa1003@naver.com</span>
     </div>
     <!-- Footer part End-->
+
+    <!--
+    <div class="portfolio-back-screen">
+      <div class="portfolio-info-mobile-container">
+        <img src="/img/mobile-screen.jpg" alt="" class="mobile-phone-img">
+      </div>
+      <div class="portfolio-info">
+        <span class="portfolio-info-title">Android Memo App</span>
+        <span class="portfolio-info-description">안드로이드 스튜디오로 제작한 메모 앱으로 메모 작성 및 편집 기능과 체크리스트 기능이 구현되어있습니다.
+        </span>
+        <ul class="img-num">
+          <button class="btn-img-left"><i class="fas fa-caret-left"></i></button>
+          <li class="img-num-item active"></li>
+          <li class="img-num-item"></li>
+          <li class="img-num-item"></li>
+          <li class="img-num-item"></li>
+          <button class="btn-img-right"><i class="fas fa-caret-right"></i></button>
+        </ul>
+        <button class="btn-portfolio-info-close">close</button>
+      </div>
+    </div>
+    -->
   </body>
 </html>
