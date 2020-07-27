@@ -4,6 +4,7 @@ body {
   font-size: 100%;
   color: white;
   text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 a:link {
@@ -57,7 +58,7 @@ button {
   position: fixed;
   width: 100vw;
   height: 4rem;
-  background-color: #1f242594;
+  background-color: rgba(31, 36, 37, 0.8);
   color: white;
   z-index: 10;
 }
@@ -206,7 +207,9 @@ button {
 }
 
 .skill-title {
-  font-size: 1.4rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.8rem;
+  text-shadow: 3px 3px 1px #2f798a;
 }
 
 .skill-img {
@@ -285,8 +288,9 @@ button {
 }
 
 .title {
-  font-size: 1.7rem;
+  font-size: 2rem;
   padding-top: 4rem;
+  font-family: "Lato", sans-serif;
 }
 
 .portfolio-menubar {
@@ -356,10 +360,12 @@ button {
   position: absolute;
   bottom: 0;
   background-color: white;
-  color: #1f2425;
+  color: #444444;
   width: 100%;
   height: 60px;
   font-size: 1.2rem;
+  font-family: "Do Hyeon", sans-serif;
+  border-top: 1px solid #dfdfdf;
 }
 
 .footer {
@@ -383,7 +389,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0000009f;
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -391,6 +397,7 @@ button {
 
 .mobile-phone-img {
   height: 70vh;
+  max-width: 50vw;
   margin: 20px 50px;
   box-shadow: 0 10px 10px #00000044;
 }
@@ -409,8 +416,10 @@ button {
 }
 
 .portfolio-info-title {
-  font-size: 2rem;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 2.5rem;
   margin-bottom: 50px;
+  color: #f7e063;
 }
 
 .portfolio-info-description {
@@ -429,7 +438,7 @@ button {
 }
 
 .img-num-item {
-  background-color:white;
+  background-color: white;
   width: 15px;
   height: 15px;
   margin: 0 20px;
@@ -451,17 +460,17 @@ button {
 }
 
 .img-num-item.active {
-  background-color:rgb(94, 209, 184);
-  
+  background-color: rgb(94, 209, 184);
 }
 
 .btn-portfolio-info-close {
-  color: white;
-  border-radius: 5px;
-  background-color: #1f2425ab;
+  color: #243672;
+  border-radius: 7px;
+  background-color: #f7e063;
   width: 70px;
   height: 40px;
   cursor: pointer;
+  border: 1px solid white;
 }
 
 @media screen and (max-width: 850px) {
@@ -624,6 +633,7 @@ button {
   }
 
   .logo {
+    font-family: "Lato", sans-serif;
     margin: 0;
   }
 

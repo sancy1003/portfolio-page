@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Do+Hyeon&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
     />
@@ -33,7 +45,7 @@
       <div class="main-text-box">
         <div class="main-text-lg">방문해 주셔서 감사합니다.</div>
         <div class="main-text-sm">
-          이 사이트는 프론트엔드 개발자 박찬영의 포트폴리오 사이트입니다.
+          이 사이트는 포트폴리오 업로드와 소개를 위해 운영하고 있습니다.
         </div>
       </div>
       <div class="main-icon-center">
@@ -51,14 +63,14 @@
             해내는 것을 가장 중요시합니다.
           </div>
           <div class="profile-myinfo">
-            <i class="fas fa-birthday-cake"></i> 1998년 1월 3일<br /><i
+            <i class="fas fa-birthday-cake"></i> &nbsp1998년 1월 3일<br /><i
               class="fas fa-phone"
             ></i>
-            010 - 8562 - 5302<br /><i class="fas fa-envelope-open"></i>
-            kipa1003@naver.com<br />
+            &nbsp010 - 8562 - 5302<br /><i class="fas fa-envelope-open"></i>
+            &nbspkipa1003@naver.com<br />
             <span class="git"
               ><a href="https://github.com/sancy1003"
-                ><i class="fab fa-github"></i> Git</a
+                ><i class="fab fa-github"></i> &nbspGit</a
               ></span
             >
           </div>
@@ -131,8 +143,20 @@
         <button class="btn-portfolio btn-portfolio-app"># App</button>
         <button class="btn-portfolio btn-portfolio-project"># Project</button>
       </div>
-      <div class="portfolio-container" onclick="clickPortfolio(data[0])">
-        <div class="portfolio-item pf-Web">
+      <div class="portfolio-container">
+        <div class="portfolio-item pf-Web" onclick="clickPortfolio(data[0])">
+          <img src="/img/movie.png" alt="memo" class="portfolio-item-img" />
+          <div class="portfolio-item-sub">영화 예매 사이트</div>
+        </div>
+        <div class="portfolio-item pf-Web" onclick="clickPortfolio(data[5])">
+          <img src="/img/gammu.JPG" alt="memo" class="portfolio-item-img" />
+          <div class="portfolio-item-sub">게임 커뮤니티 사이트</div>
+        </div>
+        <div class="portfolio-item pf-Web" onclick="clickPortfolio(data[6])">
+          <img src="/img/clone.JPG" alt="memo" class="portfolio-item-img" />
+          <div class="portfolio-item-sub">홈페이지 클론</div>
+        </div>
+        <div class="portfolio-item pf-App" onclick="clickPortfolio(data[1])">
           <img
             src="/img/TodayMemoGI.jpg"
             alt="memo"
@@ -140,53 +164,26 @@
           />
           <div class="portfolio-item-sub">Android Memo Web</div>
         </div>
-        <div class="portfolio-item pf-Web">
-          <img
-            src="/img/TodayMemoGI.jpg"
-            alt="memo"
-            class="portfolio-item-img"
-          />
-          <div class="portfolio-item-sub">Android Memo Web</div>
+        <div
+          class="portfolio-item pf-Project"
+          onclick="clickPortfolio(data[2])"
+        >
+          <img src="/img/vrmap.JPG" alt="memo" class="portfolio-item-img" />
+          <div class="portfolio-item-sub">VR MAP</div>
         </div>
-        <div class="portfolio-item pf-Web">
-          <img
-            src="/img/TodayMemoGI.jpg"
-            alt="memo"
-            class="portfolio-item-img"
-          />
-          <div class="portfolio-item-sub">Android Memo Web</div>
+        <div
+          class="portfolio-item pf-Project"
+          onclick="clickPortfolio(data[3])"
+        >
+          <img src="/img/VR ESCAPE.jpg" alt="memo" class="portfolio-item-img" />
+          <div class="portfolio-item-sub">VR 방탈출</div>
         </div>
-        <div class="portfolio-item pf-App">
-          <img
-            src="/img/TodayMemoGI.jpg"
-            alt="memo"
-            class="portfolio-item-img"
-          />
-          <div class="portfolio-item-sub">Android Memo app</div>
-        </div>
-        <div class="portfolio-item pf-App">
-          <img
-            src="/img/TodayMemoGI.jpg"
-            alt="memo"
-            class="portfolio-item-img"
-          />
-          <div class="portfolio-item-sub">Android Memo app</div>
-        </div>
-        <div class="portfolio-item pf-Project">
-          <img
-            src="/img/TodayMemoGI.jpg"
-            alt="memo"
-            class="portfolio-item-img"
-          />
-          <div class="portfolio-item-sub">Android Memo Project</div>
-        </div>
-        <div class="portfolio-item pf-Project">
-          <img
-            src="/img/TodayMemoGI.jpg"
-            alt="memo"
-            class="portfolio-item-img"
-          />
-          <div class="portfolio-item-sub">Android Memo Project</div>
+        <div
+          class="portfolio-item pf-Project"
+          onclick="clickPortfolio(data[4])"
+        >
+          <img src="/img/raid.JPG" alt="memo" class="portfolio-item-img" />
+          <div class="portfolio-item-sub">Boss Raid</div>
         </div>
       </div>
     </div>
